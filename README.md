@@ -83,7 +83,7 @@ At the bottom of this README, **I have provided instructions on how to run the u
 By running `data_pipeline.py`, the transformed and validated data will write a new .CSV fle, labeled `applied_changes_data.csv`.
 By running the unit tests, you'll notice that `test_write_data.csv` is written. This is normal. You may disregard this file, it is simply created (and based off of the changes) to simply ensure that the function that writes the final .CSV works as intended. Note: This does not occur with the Pandas version of the tests, to avoid redundancy.
 
-## There's a `test_write_data.py` that is made when executing the unit tests based off of the CSV library version, why?:
+## There's a `test_write_data.csv` that is made when executing the unit tests based off of the CSV library version, why?:
 
 This is to ensure that the function actually writes a new CSV file, granted, it will be based off of the original data set, given that it does not utilize the transformations.
 
